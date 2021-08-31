@@ -1,0 +1,221 @@
+*{
+    box-sizing: border-box;
+}
+html{
+    margin: 0px;
+}
+body{
+    background-image: url("./shara\ desert.jpg");
+   z-index: -1;
+   background-size: 100vw auto;
+    margin:0px;
+  
+   
+   
+}
+.logo{
+    height: 80px;
+    margin-left: 20px;
+    margin-top: 10px;
+}
+.nav{
+    position: absolute;
+    top: 60px;
+    left: 840px;
+   
+}
+.nav-item{
+   margin-right:60px;
+   font-size: 23px;
+   color: blanchedalmond;
+   text-decoration: none;
+   
+}
+.main-2{
+    position: absolute;
+    left: 800px;
+    
+}
+.nav-item1{
+   height: 10px;
+   position: absolute; 
+   bottom: 30px;   
+   
+}
+.card{
+    height: 280px;
+    width: 250px;
+    border-radius: 10px;
+    position: relative;
+    transition: height 5s, width, 2s;
+}
+.card:hover{
+    
+    width: 255px;
+    height: 285px;
+}
+.card-1{
+    background-image: url(./pic-1.png);
+    
+    
+}
+.card-2{
+    background-image: url(./pic-2.png);
+    bottom: 295px;
+    left: 270px;
+    
+}
+.card-3{
+    background-image: url(./pic-3.png);
+    bottom: 280px;
+}
+.card-4{
+    background-image: url(./pic-4.png);
+    bottom: 575px;
+    left: 270px;
+}
+
+.main-1{
+    height: 300px;
+    width: 400px;
+    position: absolute;
+    top:300px;
+    left:90px;
+}
+.pp{
+    color: rgb(255, 235, 205);
+    font-size: 20px;
+}
+.hh{
+    font-size: 130px;
+    
+}
+.bb{
+    color: black;
+    position: absolute;
+    left: 0px;
+    top: 350px;
+    height: 60px;
+    width: 220px;
+    border-radius: 30px;
+    border: 0;
+}
+.cc{
+    color: white;
+    text-align: center;
+    justify-content: center;
+    padding-top: 30px;
+    font-size: 25px;
+    
+}
+/* tab*/
+@media screen and (min-width:768px) and (max-width:1050px) {
+    body{
+        background-image: url("./shara\ desert.jpg");
+       z-index: -1;
+       background-size: 100%;  
+    }
+    .logo{
+        height: 40px;
+        margin-left: 10px;
+        margin-top: 10px;
+    }
+    .nav{
+        
+        position: absolute;
+        left: 240px;
+        top: 7px;
+       
+    }
+    .nav-item{
+       display: block;
+       font-size: 8px;
+       margin-top: 8px;
+       color: rgb(255, 235, 205);
+       text-decoration: none;
+       
+    }
+    .nav-item1{
+        height: 10px;
+    
+       position: absolute; 
+       bottom: 30px;   
+       
+    }
+    .manu{
+        position: absolute;
+        height: 30px;
+        left: 40px;
+    }
+    .main-1{
+        height: 30px;
+        width: 40px;
+       
+    }
+    .main-2{
+        position: absolute;
+        left: 800px;
+        
+    }
+    
+    .card{
+        height: 280px;
+        width: 250px;
+        border-radius: 10px;
+        position: relative;
+        transition: height 5s, width, 2s;
+    }
+    .card:hover{
+        
+        width: 255px;
+        height: 285px;
+    }
+    .card-1{
+        background-image: url(./pic-1.png);
+        
+        
+    }
+    .card-2{
+        background-image: url(./pic-2.png);
+        bottom: 295px;
+        left: 270px;
+        
+    }
+    .card-3{
+        background-image: url(./pic-3.png);
+        bottom: 280px;
+    }
+    .card-4{
+        background-image: url(./pic-4.png);
+        bottom: 575px;
+        left: 270px;
+    }
+    
+    
+    .pp{
+        color: rgb(255, 235, 205);
+        font-size: 10px;
+    }
+    .hh{
+        font-size: 30px;
+        
+    }
+    .bb{
+        color: black;
+        position: absolute;
+        left: 0px;
+        top: 350px;
+        height: 60px;
+        width: 220px;
+        border-radius: 30px;
+        border: 0;
+    }
+    .cc{
+        color: white;
+        text-align: center;
+        justify-content: center;
+        padding-top: 30px;
+        font-size: 25px;
+        
+    }   
+}
