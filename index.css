@@ -79,7 +79,7 @@ body{
     height: 300px;
     width: 400px;
     position: absolute;
-    top:300px;
+    top:100px;
     left:90px;
 }
 .pp{
@@ -94,7 +94,7 @@ body{
     color: black;
     position: absolute;
     left: 0px;
-    top: 350px;
+    top: 470px;
     height: 60px;
     width: 220px;
     border-radius: 30px;
@@ -109,7 +109,131 @@ body{
     
 }
 /* tab*/
-@media screen and (min-width:768px) and (max-width:1050px) {
+@media screen and (min-width:768px) and (max-width:1000px) {
+    .con1{
+       
+        width: 400px;
+    }
+    body{
+        background-image: url("./shara\ desert.jpg");
+       z-index: -1;
+       background-size: 100%;  
+    }
+    .logo{
+        height: 80px;
+        margin-left: 15px;
+        margin-top: 10px;
+    }
+    .nav{
+        
+        position: absolute;
+        left: 640px;
+        top: 10px;
+       
+    }
+    .nav-item{
+       display: block;
+       font-size: 10px;
+       margin-top: 8px;
+       color: rgb(255, 235, 205);
+       text-decoration: none;
+       
+    }
+    .nav-item1{
+        height: 20px;
+    
+       position: absolute; 
+       top: 20px;
+       bottom: 30px;
+       left: 10px;   
+       
+    }
+    .manu{
+        position: absolute;
+        height: 30px;
+        left: 40px;
+    }
+    .main-1{
+        display: block;
+        margin-left: 0px;
+        height: 300px;
+        width: 540px;
+       
+    }
+    .main-2{
+      position: absolute;
+      left: 10px;
+    top: 300px;
+    }
+    
+    .card{
+        height: 300px;
+        width: 440px;
+        border-radius: 10px;
+       
+        transition: height 5s, width, 2s;
+    }
+    .card:hover{
+        
+        width: 255px;
+        height: 285px;
+    }
+    .card-1{
+        background-image: url(./pic-1.png);
+        left: 120px;
+        
+    }
+    .card-2{
+        background-image: url(./pic-2.png);
+        top: 10px;
+        left: 120px;
+        
+    }
+    .card-3{
+        background-image: url(./pic-3.png);
+        top: 20px;
+        left: 120px;
+    }
+    .card-4{
+        background-image: url(./pic-4.png);
+        top: 20px;
+        left: 120px;
+    }
+    
+    
+    .pp{
+        color: rgb(255, 235, 205);
+        font-size: 15px;
+    }
+    .hh{
+        font-size: 30px;
+        
+    }
+    .bb{
+        color: black;
+        position: absolute;
+        left: 0px;
+        top: 150px;
+        height: 20px;
+        width: 100px;
+        border-radius: 30px;
+        border: 0;
+    }
+    .cc{
+        color: white;
+        text-align: center;
+        justify-content: center;
+        padding-top: 30px;
+        font-size: 15px;
+        
+    }   
+}
+@media screen and (min-width:340px) and (max-width:767px) {
+
+    .con1{
+       
+        width: 200px;
+    }
     body{
         background-image: url("./shara\ desert.jpg");
        z-index: -1;
@@ -148,21 +272,23 @@ body{
         left: 40px;
     }
     .main-1{
-        height: 30px;
-        width: 40px;
+        display: block;
+        margin-left: 0px;
+        height: 300px;
+        width: 240px;
        
     }
     .main-2{
-        position: absolute;
-        left: 800px;
-        
+      position: absolute;
+      left: 10px;
+    top: 300px;
     }
     
     .card{
-        height: 280px;
-        width: 250px;
+        height: 150px;
+        width: 320px;
         border-radius: 10px;
-        position: relative;
+       
         transition: height 5s, width, 2s;
     }
     .card:hover{
@@ -172,23 +298,24 @@ body{
     }
     .card-1{
         background-image: url(./pic-1.png);
-        
+        left: 10px;
         
     }
     .card-2{
         background-image: url(./pic-2.png);
-        bottom: 295px;
-        left: 270px;
+        top: 10px;
+        left: 10px;
         
     }
     .card-3{
         background-image: url(./pic-3.png);
-        bottom: 280px;
+        top: 20px;
+        left: 10px;
     }
     .card-4{
         background-image: url(./pic-4.png);
-        bottom: 575px;
-        left: 270px;
+        top: 20px;
+        left: 10px;
     }
     
     
@@ -204,9 +331,9 @@ body{
         color: black;
         position: absolute;
         left: 0px;
-        top: 350px;
-        height: 60px;
-        width: 220px;
+        top: 150px;
+        height: 20px;
+        width: 100px;
         border-radius: 30px;
         border: 0;
     }
@@ -215,7 +342,7 @@ body{
         text-align: center;
         justify-content: center;
         padding-top: 30px;
-        font-size: 25px;
+        font-size: 15px;
         
     }   
 }
